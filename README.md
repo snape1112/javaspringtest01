@@ -11,8 +11,8 @@ Simple REST API example with Java (Spring Boot, Postgres).
 ## How can you run this project on local?
 
 ### Configuration
-> (Install Maven)[https://maven.apache.org/install.html]
-> (Install Postgres on your local laptop.)[https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/]
+> [Install Maven](https://maven.apache.org/install.html)
+> [Install Postgres on your local laptop.](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
 > You should add following variables in application.properties.
 ```
 spring.datasource.username=postgres
@@ -34,8 +34,8 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/testdb
 ## How can you run this project on heroku?
 
 ### Configuration
-> (Deploy on Heroku)[https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku]
-> (Add on postgres to heroku)[https://elements.heroku.com/addons/heroku-postgresql]
+> [Deploy on Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)
+> [Add on postgres to heroku](https://elements.heroku.com/addons/heroku-postgresql)
 > You should be careful in target java version(Heroku currently uses OpenJDK 8 to run your application by default.)
 > You should add following variables in application.properties.
 ```

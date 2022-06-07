@@ -11,14 +11,14 @@ Simple REST API example with Java (Spring Boot, Postgres).
 ## How can you run this project on local?
 
 ### Configuration
-> [Install Maven](https://maven.apache.org/install.html)
-> [Install Postgres on your local laptop.](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
-> You should add following variables in application.properties.
-```
+<p>[Install Maven](https://maven.apache.org/install.html)</p>
+<p>[Install Postgres on your local laptop.](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)</p>
+<p>You should add following variables in application.properties.</p>
+<code>
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 spring.datasource.url=jdbc:postgresql://localhost:5432/testdb
-```
+</code>
 
 ### Run the Project
 > mvnw spring-boot:run
@@ -27,24 +27,24 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/testdb
 > mvnw test
 
 ### Test REST API
-> Open shell and type below command.
-> curl localhost:8081/fibonicci/10
-> curl localhost:8081/list
+<p>Open shell and type below command.</p>
+<p>curl localhost:8081/fibonicci/10</p>
+<p>curl localhost:8081/list</p>
 
 ## How can you run this project on heroku?
 
 ### Configuration
-> [Deploy on Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)
-> [Add on postgres to heroku](https://elements.heroku.com/addons/heroku-postgresql)
-> You should be careful in target java version(Heroku currently uses OpenJDK 8 to run your application by default.)
-> You should add following variables in application.properties.
-```
+<p>[Deploy on Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)</p>
+<p>[Add on postgres to heroku](https://elements.heroku.com/addons/heroku-postgresql)</p>
+<p>You should be careful in target java version(Heroku currently uses OpenJDK 8 to run your application by default.)</p>
+<p>You should add following variables in application.properties.</p>
+<code>
 spring.datasource.url=postgres://slqcxtcrozwfxw:c4f2ba3892155ab0d9db393402497f328ba7f6fbe5cbbec4e7afe9f1fe2ad714@ec2-3-229-161-70.compute-1.amazonaws.com:5432/d3cnaj4mvnfued
 spring.datasource.username=slqcxtcrozwfxw
 spring.datasource.password=c4f2ba3892155ab0d9db393402497f328ba7f6fbe5cbbec4e7afe9f1fe2ad714
-```
+</code>
 
 ### Test REST API
-> Open shell and type below command.
-> curl https://javaproject022.herokuapp.com/fibonicci/10
-> curl https://javaproject022.herokuapp.com/list
+<p> Open shell and type below command.</p>
+<p> curl https://javaproject022.herokuapp.com/fibonicci/10</p>
+<p> curl https://javaproject022.herokuapp.com/list</p>
